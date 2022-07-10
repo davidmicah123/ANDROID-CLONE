@@ -120,4 +120,28 @@ html{
     line-height: 2rem;
 }
 
+.device_grid{
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    width: 80vw;
+    grid-gap: 2vw;
+}
+.decor_device_text{
+    height: 70vh;
+    border: 18px solid #95d7f1;
+    border-left: none;
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    padding: 0 11vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.decor_device_text h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.decor_div_2{
+    align-self: center;
+}
 
