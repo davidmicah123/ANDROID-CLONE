@@ -183,3 +183,21 @@ html{
 }
 
 
+
+
+
+footer{
+    margin-top: 10vh;
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90vw;
+    grid-gap: 2vw;
+    margin: 2vh auto;
+    padding-bottom: 10vh;
+    border-bottom: 2px solid gray;
+}
+.footer_grid ul{
+    list-style: none;
+}
