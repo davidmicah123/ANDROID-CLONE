@@ -201,3 +201,28 @@ footer{
 .footer_grid ul{
     list-style: none;
 }
+
+
+.conclusion{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 2vh auto;
+    margin-bottom: 4vh;
+    padding: 3vh 0;
+}
+.policy{
+    width: 50vw;
+}
+.policy small{
+    font-size: 0.7rem;
+}
+.socila_media{
+    display: flex;
+    gap: 3vw;
+}
+.socila_media i{
+    color: hsl(198deg 81% 14%);
+}
+
+
