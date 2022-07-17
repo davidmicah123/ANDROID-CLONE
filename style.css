@@ -40,6 +40,28 @@ html{
     align-self: center;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 89vw;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 2vh 0;
+    opacity: 2;
+    background-color: white;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    font-size: 0.875rem;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+}
+
 
 
 
