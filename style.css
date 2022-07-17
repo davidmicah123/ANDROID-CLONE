@@ -23,6 +23,17 @@ html{
     /* animation-name: slideOut; */
     animation-duration: 5s;
 }
+@keyframes slideOut {
+    0%{transform: translateY();}
+    100%{transform: translateY(120vh);}
+}
+.fixed{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 80vw;
+}
 
 
 
