@@ -34,6 +34,12 @@ html{
     align-items: center;
     width: 80vw;
 }
+.fixed p{
+    font-size: 0.7rem;
+    display: flex;
+    align-self: center;
+}
+
 
 
 
