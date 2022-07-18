@@ -30,4 +30,8 @@ const sliderScroll2 = document.querySelector('.slider_scrole2');
 const sliderScroll3 = document.querySelector('.slider_scrole3');
 const sliderScroll4 = document.querySelector('.slider_scrole4');
 
+const slider1 = document.querySelector('.scroller_wrapper1');
+const slider2 = document.querySelector('.scroller_wrapper2');
+const slider3 = document.querySelector('.scroller_wrapper3');
+const slider4 = document.querySelector('.scroller_wrapper4');
 
