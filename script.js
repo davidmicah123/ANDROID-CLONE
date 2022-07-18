@@ -35,3 +35,17 @@ const slider2 = document.querySelector('.scroller_wrapper2');
 const slider3 = document.querySelector('.scroller_wrapper3');
 const slider4 = document.querySelector('.scroller_wrapper4');
 
+
+const navList = document.querySelector('.nav_list');
+navList.addEventListener('click', function (e) {
+    e.preventDefault();
+    if (e.target === sliderScroll1) {
+        slider1.scrollIntoView({behavior: "smooth"});
+    }else if (e.target === sliderScroll2) {
+        slider2.scrollIntoView({behavior: "smooth"});
+    }else if (e.target === sliderScroll3) {
+        slider3.scrollIntoView({behavior: "smooth"});
+    }else if (e.target === sliderScroll4) {
+        slider4.scrollIntoView({behavior: "smooth"});
+    }
+});
