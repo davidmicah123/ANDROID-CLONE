@@ -149,7 +149,12 @@ nav{
 
 
 
+
 /* protection */
+.protection{
+    background-color: white;
+    margin-top: 15vh;
+}
 .protection_grid{
     display: grid;
     grid-template-columns: 55fr 40fr;
@@ -157,6 +162,8 @@ nav{
     width: 85vw;
     grid-gap: 5vw;
     margin-left: 4vw;
+    /* z-index: 50; */
+    padding: 6vh 0;
 }
 .protection_img_wrapper{
     width: 100%;
@@ -184,7 +191,6 @@ nav{
 .protection_txt{
     align-self: center;
 }
-
 
 /* card */
 .card_grid{
