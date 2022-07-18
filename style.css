@@ -115,6 +115,16 @@ nav{
     height: 55vh;
     margin-top: 7vh;
 }
+.blue{
+    background-color: hsl(203deg 95% 92%);
+    border-radius: 50%;
+    padding-bottom: 55vh;
+    width: 28vw;
+    position: absolute;
+    margin-top: 57vh;
+    transform: translatex(-15vw);
+    z-index: -2;
+}
 
 /* protection */
 .protection_grid{
