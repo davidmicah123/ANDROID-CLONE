@@ -21,3 +21,13 @@ closePopUp.addEventListener('click',
         }
     }
 );
+
+
+
+
+const sliderScroll1 = document.querySelector('.slider_scrole1');
+const sliderScroll2 = document.querySelector('.slider_scrole2');
+const sliderScroll3 = document.querySelector('.slider_scrole3');
+const sliderScroll4 = document.querySelector('.slider_scrole4');
+
+
