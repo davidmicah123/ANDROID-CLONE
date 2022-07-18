@@ -126,6 +126,29 @@ nav{
     z-index: -2;
 }
 
+.pink{
+    background-color: hsl(16deg 90% 96%);
+    border-radius: 50%;
+    padding-bottom: 55vh;
+    width: 28vw;
+    position: absolute;
+    transform: translateY(-5vh);
+    z-index: -2;
+    margin-left: 2vw;
+}
+.orange{
+    background-color: hsl(72deg 71% 89%);
+    border-radius: 50%;
+    padding-bottom: 55vh;
+    width: 28vw;
+    position: absolute;
+    right: -0.5vw;
+    margin-top: 38vh;
+    z-index: -2;
+}
+
+
+
 /* protection */
 .protection_grid{
     display: grid;
