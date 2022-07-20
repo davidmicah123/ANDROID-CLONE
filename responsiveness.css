@@ -81,3 +81,30 @@ body{
         height: 45vh;
     }
 }
+
+
+
+
+@media (max-width: 650px) {
+    .hero_txt h1{
+        font-size: 2.6rem;
+        /* text-align: center; */
+    }
+    .hero_txt p{
+        font-size: 1.2rem;
+        /* text-align: center; */
+    }
+    .card_grid{
+        width: 95vw;
+    }
+    .hero_grid{
+        grid-template-columns: 1fr;
+    }
+    .footer_grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .none_mobile_sm{
+        display: none;
+    }
+}
+
