@@ -33,5 +33,22 @@ body{
         font-size: 1.2rem;
         margin-top: 2vh;
     }
+    .card_main_txt p{
+        font-size: 0.8rem;
+        margin-top: 2vh;
+    }
+    .device_grid{
+        width: 95vw;
+    }
+    .protection{
+        margin: 10vh 0;
+    }
+    .protection_grid{
+        grid-template-columns: 1fr;
+        width: 92vw; 
+    }
+    .protection_img{
+        height: 100%;
+    }
     
 }
