@@ -106,5 +106,14 @@ body{
     .none_mobile_sm{
         display: none;
     }
+    .conclusion{
+        flex-direction: column;
+    }
+    .policy{
+        width: 100%;
+    }
+    .socila_media{
+        margin: 3vh auto;
+    }
 }
 
