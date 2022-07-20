@@ -70,6 +70,14 @@ body{
     .device_grid{
         grid-template-columns: 1fr;
     }
-    
-    
+    .decor_div_2{
+        /* display: none; */
+        padding: 3vh 4vw;
+    }
+    .decor_device_text{
+        width: 70vw;
+    }
+    .scroller_wrapper{
+        height: 45vh;
+    }
 }
