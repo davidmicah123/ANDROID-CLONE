@@ -50,5 +50,15 @@ body{
     .protection_img{
         height: 100%;
     }
+}
+
+@media (max-width: 800px) {
+    .card_grid{
+        grid-template-columns: 1fr;
+    }
+    .hero_grid{
+        grid-template-columns: 1fr;
+    }
+    
     
 }
