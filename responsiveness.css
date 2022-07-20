@@ -117,3 +117,25 @@ body{
     }
 }
 
+
+
+
+@media (max-width: 500px) {
+    .card{
+        width: 90vw;
+    }
+    .footer_grid{
+        width: 90vw;
+    }
+    .hero_images{
+        width: 100%;
+    }
+    .hero_txt h1{
+        font-size: 2rem;
+    }
+    .hero_txt p{
+        font-size: 1.2rem;
+    }
+}
+
+
