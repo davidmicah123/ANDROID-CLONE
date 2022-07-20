@@ -59,6 +59,17 @@ body{
     .hero_grid{
         grid-template-columns: 1fr;
     }
+    .hero_images{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .card{
+        width: 85vw;
+        margin: 1vh auto;
+    }
+    .device_grid{
+        grid-template-columns: 1fr;
+    }
     
     
 }
