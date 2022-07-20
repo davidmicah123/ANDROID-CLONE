@@ -139,3 +139,21 @@ body{
 }
 
 
+
+
+@media (max-width: 450px) {
+    /* .protection_img_wrapper{
+        height: 50vh;
+    }
+    .hero_images{
+        height: 50vh;
+    }
+    .hero_img_child1, .hero_img_child2, .hero_img_child3{
+        height: 100%;
+    } */
+
+    .card_img_wrapper{
+        height: 30vh;
+    }
+}
+
