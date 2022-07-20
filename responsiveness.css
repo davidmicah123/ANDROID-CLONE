@@ -15,4 +15,23 @@ body{
     .footer_grid{
         grid-template-columns: repeat(4, 1fr);
     }
+    
+    .none_mobile_lg{
+        display: none;
+    }
+    .hero_grid{
+        width: 90vw;
+    }
+    .hero_txt h1{
+        font-size: 2rem;
+    }
+    .hero_txt p{
+        font-size: 1rem;
+    }
+
+    .card_main_txt h1{
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+    
 }
