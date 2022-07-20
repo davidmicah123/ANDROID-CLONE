@@ -4,3 +4,15 @@ html{
 body{
     overflow-x: hidden;
 }
+
+@media (max-width: 900px) {
+    .card_grid, .hero_grid{
+        width: 93vw;
+    }
+    .none_mobile{
+        display: none;
+    }
+    .footer_grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
