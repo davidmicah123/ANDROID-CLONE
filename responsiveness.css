@@ -115,6 +115,9 @@ body{
     .socila_media{
         margin: 3vh auto;
     }
+    .nav_list{
+        display: block;
+    }
 }
 
 
@@ -135,6 +138,9 @@ body{
     }
     .hero_txt p{
         font-size: 1.2rem;
+    }
+    .hero_images{
+        width: 70%;
     }
 }
 
