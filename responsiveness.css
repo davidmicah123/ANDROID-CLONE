@@ -116,7 +116,7 @@ body{
         margin: 3vh auto;
     }
     .nav_list{
-        display: block;
+        display: none;
     }
 }
 
@@ -141,7 +141,9 @@ body{
     }
     .hero_images{
         width: 70%;
+        margin: 0;
     }
+    
 }
 
 
